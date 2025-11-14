@@ -1,0 +1,87 @@
+[general]
+import = [
+#     "~/home/west/.config/alacritty/themes/ice_dark.toml"
+#     "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+]
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Control", action = "Copy" },
+  { key = "V", mods = "Control", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "ReceiveChar" },
+  { key = "V", mods = "Control|Shift", action = "ReceiveChar" }
+]
+
+# Alacritty Configuration (Warm Ember Theme)
+
+[window]
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+decorations = "Full"
+opacity = 0.95
+title = "Ember Terminal"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font]
+size = 12.0
+
+[colors.primary]
+background = "#1a0f0a"   # Deep brownish background
+foreground = "#f2d7b6"   # Warm light beige text
+
+[colors.cursor]
+text = "#1a0f0a"
+cursor = "#ffb366"
+
+[colors.selection]
+text = "#1a0f0a"
+background = "#ffb366"
+
+[colors.normal]
+black = "#2c1810"
+red = "#b74a2b"
+green = "#a67c52"
+yellow = "#cc9240"
+blue = "#8c5a3c"
+magenta = "#b35b4c"
+cyan = "#d08770"
+white = "#f2d7b6"
+
+[colors.bright]
+black = "#3b2318"
+red = "#c75b39"
+green = "#b58b5e"
+yellow = "#e0a85a"
+blue = "#a16a4f"
+magenta = "#c26b5d"
+cyan = "#e39b74"
+white = "#ffe6cc"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[bell]
+animation = "EaseOutExpo"
+color = "#cc9240"
+duration = 150
+
+[selection]
+save_to_clipboard = true
+#[terminal.shell]
+#program = "/bin/fish"
+#args = ["-c", "~/.config/alacritty/image_startup.sh; exec fish -l"]
