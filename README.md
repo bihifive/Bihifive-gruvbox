@@ -1,5 +1,5 @@
 # requirements
-Krabby
-fish
-alacritty
-waybar
+- Krabby
+- fish
+- alacritty
+- waybar
