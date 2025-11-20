@@ -10,6 +10,7 @@
 - cbonsai
 - cmatrix
 - snake
+- LSD
 ### Random setups
 - waydroid
 - docker
