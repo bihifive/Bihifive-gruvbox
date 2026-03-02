@@ -26,14 +26,14 @@ selection_foreground #1a0f0a
 selection_background #ffb366
 
 # Normal colors
-color0  #2c1810  # black
-color1  #b74a2b  # red
-color2  #a67c52  # green
-color3  #cc9240  # yellow
-color4  #8c5a3c  # blue
-color5  #b35b4c  # magenta
-color6  #d08770  # cyan
-color7  #f2d7b6  # white
+color0  #2c1810  
+color1  #b74a2b  
+color2  #a67c52  
+color3  #cc9240  
+color4  #8c5a3c  
+color5  #b35b4c  
+color6  #d08770  
+color7  #f2d7b6  
 
 # Bright colors
 color8  #3b2318
