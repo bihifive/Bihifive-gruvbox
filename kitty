@@ -1,0 +1,75 @@
+# Kitty Configuration
+
+### Window
+window_padding_width 8
+dynamic_padding yes
+window_decorations yes
+background_opacity 0.95
+confirm_os_window_close 0
+
+### Title
+allow_remote_control yes
+term_title Ember Terminal
+
+### Font
+font_family      JetBrainsMono Nerd Font
+bold_font        auto
+italic_font      auto
+font_size        12.0
+
+### Colors
+background       #1a0f0a
+foreground       #f2d7b6
+cursor_text_color #1a0f0a
+cursor           #ffb366
+selection_foreground #1a0f0a
+selection_background #ffb366
+
+# Normal colors
+color0  #2c1810  # black
+color1  #b74a2b  # red
+color2  #a67c52  # green
+color3  #cc9240  # yellow
+color4  #8c5a3c  # blue
+color5  #b35b4c  # magenta
+color6  #d08770  # cyan
+color7  #f2d7b6  # white
+
+# Bright colors
+color8  #3b2318
+color9  #c75b39
+color10 #b58b5e
+color11 #e0a85a
+color12 #a16a4f
+color13 #c26b5d
+color14 #e39b74
+color15 #ffe6cc
+
+### Cursor
+cursor_shape block
+cursor_blink_interval 0.6
+
+### Scrolling
+scrollback_lines 10000
+scroll_multiplier 3
+
+### Bell
+enable_audio_bell yes
+bell_on_tab yes
+visual_bell_duration 0.15
+visual_bell_color #cc9240
+
+### Selection
+copy_on_select yes
+
+### Keybindings
+# Copy & Paste shortcuts similar to Alacritty
+map ctrl+c copy_to_clipboard
+map ctrl+v paste_from_clipboard
+# Allow literal Ctrl+Shift+C/V
+map ctrl+shift+c send_text all \u0003
+map ctrl+shift+v send_text all \u0016
+
+### Shell (optional)
+# shell /bin/fish
+# shell_args --login
