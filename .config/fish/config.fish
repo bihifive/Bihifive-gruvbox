@@ -1,6 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    krabby name chesnaught
+    # krabby name chesnaught
     # Gruvbox dark colors for fish shell prompts and text
     set -g fish_color_command normal          # fg default
     set -g fish_color_keyword  "#fb4934"      # red
