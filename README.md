@@ -1,5 +1,4 @@
 # Requirements
-- Krabby
 - fish
 - alacritty
 - waybar
@@ -7,6 +6,7 @@
 - yay
 - neofetch/fastfetch
 - hyfetch
+- Krabby
 - cbonsai
 - cmatrix
 - snake
